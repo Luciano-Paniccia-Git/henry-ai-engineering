@@ -1,0 +1,21 @@
+# Entornos y dependencias
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno / secretos (API keys de OpenAI, etc.)
+.env
+.env.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Notebooks - checkpoints
+.ipynb_checkpoints/
